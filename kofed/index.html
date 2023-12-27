@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The KOFED Project | Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="images/kofedlogo.png" alt="Your Logo" class="logo-img mr-2">
+        <span class="d-none d-lg-inline">The KOFED Project</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">JHS/SHS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+    <!-- Content goes here -->
+    <div class="container mt-4">
+        <h1>Welcome to The KOFED Project</h1>
+        <p>Inspiring Possibilities, Hope & Change.</p>
+
+        <!-- Slider container -->
+        <div class="slider">
+            <div><img src="images/pro1.jpg" alt="Image 1" height="350"></div>
+            <div><img src="images/pro2.png" alt="Image 2" height="350"></div>
+            <div><img src="images/pro3.jpg" alt="Image 3" height="350"></div>
+            <div><img src="images/pro4.jpg" alt="Image 4" height="350"></div>
+            <div><img src="images/pro5.jpg" alt="Image 5" height="350"></div>
+            <div><img src="images/pro6.jpg" alt="Image 6" height="350"></div>
+            <div><img src="images/pro7.jpg" alt="Image 2" height="350"></div>
+            <!-- Add more image divs as needed -->
+        </div>
+    </div>
+    <footer class="bg-dark text-white mt-4 footer-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contact Information</h5>
+                    <p>Email: info@kofedproject.org</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Connect with Us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" target="_blank" class="social-icon">
+                                <i class="fab fa-facebook"></i> <!-- Facebook icon -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-icon">
+                                <i class="fab fa-twitter"></i> <!-- Twitter icon -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin"></i> <!-- LinkedIn icon -->
+                            </a>
+                        </li>
+                        <!-- Add more social media icons as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Your custom script for the slider -->
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

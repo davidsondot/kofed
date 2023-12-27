@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a linear gradient background to the body */
+body {
+    background: linear-gradient(90deg, #5170ff, #ff66c4);
+    font-family: Arial, sans-serif;
+}
+
+/* Add styling for the logo image */
+.logo-img {
+    max-height: 40px; /* Set a maximum height for the logo */
+    margin-right: 10px; /* Optional: Add some right margin for spacing */
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #3d3f93;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff; /* White text */
+    font-weight: bold; /* Bold text */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* White text on hover */
+}
+
+/* Float the navigation items to the right */
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Style the main content */
+.container {
+    margin-top: 20px;
+}
+
+/* Add some padding and a border to the content */
+.container {
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+    /*border-radius: 5px;*/
+}
+
+/* Add some margin to the heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Style links */
+a {
+    color: #007bff; /* Blue link color */
+}
+
+a:hover {
+    color: #0056b3; /* Blue link color on hover */
+}
+.container {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px royalblue;
+}
+
+.container p {
+    font-size: 1.4em;
+}
+
+        /* New class for the footer */
+.row {
+    color: darkorange; /* Reset the color property */
+    text-align: left; /* Reset the text-align property */
+    text-shadow: none; /* Reset the text-shadow property */
+}
+
+        .footer-container h5 {
+            color: white; /* You can customize the color for header elements in the footer */
+        }
